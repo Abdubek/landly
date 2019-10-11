@@ -1,0 +1,471 @@
+@import "../../style/variables";
+
+.main {
+  font-family: $montserrat;
+  & > .lnd-button {
+    display: none;
+  }
+  &__left {
+    width: 50%;
+  }
+  &__img {
+    width: 50%;
+  }
+  &__title {
+    color: $black1;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.78px;
+    margin-bottom: 50px;
+  }
+  &__desc {
+    font-size: 18px;
+    line-height: 1.56;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 60px;
+    margin-top: 15px;
+    &-title {
+      line-height: 20px;
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}
+
+.advantages {
+  font-family: $montserrat;
+  .card {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    &__img {
+      align-self: flex-start;
+    }
+    &__title {
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0.3px;
+      margin-top: 21px;
+      margin-bottom: 6px;
+      color: $black1;
+    }
+    &__desc {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 1.5;
+      color: $black1;
+    }
+  }
+}
+
+.does {
+  font-family: $montserrat;
+  position: relative;
+  font-size: 18px;
+  line-height: 1.56;
+  padding: 300px 0;
+  background: url(../../images/macbook.jpg) right no-repeat;
+  background-size: auto 100%;
+  &__left {
+    width: 50%;
+  }
+  &__title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.31;
+    letter-spacing: 0.3px;
+    margin-bottom: 30px;
+    color: $black1;
+  }
+  &__list {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+    color: #29292a;
+  }
+}
+
+.additional-info {
+  font-family: $montserrat;
+  height: 900px;
+  background: url(../../images/graph.svg) center 100px no-repeat;
+  &__text {
+    font-size: 18px;
+    line-height: 1.56;
+    color: $black1;
+    width: 470px;
+    &-left {
+      align-self: flex-start;
+    }
+    &-right {
+      align-self: flex-end;
+    }
+  }
+}
+
+.how {
+  font-family: $montserrat;
+  margin-bottom: 100px;
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: $black1;
+    font-size: 32px;
+  }
+  .img {
+    position: relative;
+    &__number {
+      &_mobile {
+        display: none;
+      }
+    }
+    .plants {
+      position: absolute;
+      z-index: -10;
+    }
+    &:first-child {
+      align-self: flex-start;
+      .plants {
+        bottom: 0;
+        left: 50%;
+      }
+    }
+    &:nth-child(2) {
+      width: 82%;
+      align-self: flex-end;
+      margin-top: -100px;
+      .plants {
+        top: 0;
+        left: 50%;
+      }
+    }
+    &:nth-child(3) {
+      width: 60%;
+      align-self: flex-end;
+      margin-top: -100px;
+      .plants {
+        bottom: 0;
+        left: -100px;
+      }
+    }
+    &:nth-child(4) {
+      width: 40%;
+      align-self: flex-end;
+      margin-top: -100px;
+      .plants {
+        bottom: 0;
+        left: 50%;
+      }
+    }
+  }
+}
+
+.markets {
+  font-family: $montserrat;
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin-bottom: 40px;
+    color: $black1;
+  }
+  &__cities {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    span {
+      text-align: center;
+      width: 20%;
+      margin-bottom: 30px;
+      color: $black1;
+    }
+  }
+}
+
+.compare {
+  font-family: $montserrat;
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: 32px;
+    color: $black1;
+  }
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    .bold {
+      font-weight: bold;
+    }
+    tr {
+      height: 62px;
+      border-bottom: 2px solid #f5f4f7;
+      color: $black1;
+    }
+    th {
+      color: #29292a;
+      font-weight: normal;
+    }
+    td {
+      text-align: center;
+      img:not(:first-child) {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.enterprise-form {
+  background: url(../../images/form.svg) left bottom no-repeat;
+  border-bottom: 1px solid #cfcfcf;
+  font-family: $montserrat;
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin-bottom: 50px;
+    font-size: 32px;
+  }
+  .address {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: $breakpoint-xxl) {
+
+}
+@media (max-width: $breakpoint-xxl){
+
+}
+@media (max-width: $breakpoint-xl) {
+  .modal {
+    width: 65%;
+  }
+}
+@media (max-width: $breakpoint-lg) {
+  .does {
+    background-size: 70%;
+    padding: 150px 0;
+  }
+  .additional-info {
+    background-size: 100%;
+  }
+  .how {
+    .img {
+      &:first-child {
+        .plants {
+          left: 30%;
+        }
+      }
+      &:nth-child(2) {
+        width: 82%;
+      }
+      &:nth-child(3) {
+        width: 65%;
+      }
+      &:nth-child(4) {
+        width: 50%;
+      }
+    }
+  }
+  .modal {
+    width: 75%;
+  }
+}
+@media (max-width: $breakpoint-md) {
+  .does {
+    padding: 100px 0;
+  }
+  .how {
+    padding: 50px 0;
+    .img {
+      margin-bottom: 30px;
+
+      &__number {
+        width: 100%;
+        display: none;
+
+        &_mobile {
+          width: 100%;
+          max-width: 300px;
+          margin: auto;
+          display: block !important;
+        }
+      }
+
+      &:first-child {
+        width: calc(100% - 30px);;
+        align-self: center;
+      }
+
+      &:nth-child(2) {
+        width: calc(100% - 30px);;
+        align-self: center;
+        margin-top: 0;
+
+        .plants {
+          display: none;
+        }
+      }
+
+      &:nth-child(3) {
+        width: calc(100% - 30px);;
+        align-self: center;
+        margin-top: 0;
+
+        .plants {
+          bottom: 0;
+          left: 75%;
+        }
+      }
+
+      &:nth-child(4) {
+        width: calc(100% - 30px);;
+        align-self: center;
+        margin-top: 0;
+
+        .plants {
+          display: none;
+        }
+      }
+    }
+  }
+  .enterprise-form {
+    .contact-us-form {
+      padding: 60px;
+    }
+  }
+  .modal {
+    width: 85%;
+  }
+}
+@media (max-width: $breakpoint-sm) {
+  .lnd-header {
+    padding: 20px;
+  }
+  .main {
+    padding-top: 15px !important;
+    flex-direction: column;
+    & > .lnd-button {
+      margin-top: 50px;
+      display: block;
+    }
+    &__left {
+      & > .lnd-button {
+        display: none;
+      }
+    }
+    &__left, &__img {
+      width: 100%;
+    }
+    &__title {
+      font-size: 18px;
+      line-height: 1.39;
+      letter-spacing: 0.34px;
+      width: 80%;
+    }
+    &__desc {
+      &-title {
+        font-size: 14px;
+      }
+      font-size: 12px;
+      line-height: 2;
+      margin-bottom: 0;
+    }
+  }
+  .advantages {
+    padding: 100px 15px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    .card {
+      width: 300px;
+      padding-right: 50px;
+      flex: 0 0 auto;
+      &__title {
+      }
+      &__desc {
+      }
+    }
+  }
+  .does {
+    background-position: bottom right;
+    background-size: 350px;
+    padding: 0 0 350px;
+    font-size: 12px;
+    &__left {
+      width: 100%;
+    }
+    &__title {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    &__list {
+      margin-top: 15px;
+    }
+  }
+  .additional-info {
+    padding: 0 15px;
+    background-position: center 100px;
+    background-size: 325px;
+    height: 500px;
+    &__text {
+      width: 100%;
+      font-size: 12px;
+    }
+    .lnd-button {
+      width: 100%;
+    }
+  }
+  .markets {
+    padding: 50px 0;
+    &__title {
+      font-size: 22px;
+    }
+    &__cities {
+      font-size: 16px;
+      & span {
+        width: 50%;
+      }
+    }
+  }
+  .compare {
+    padding: 50px 15px;
+    &__title {
+      font-size: 22px;
+    }
+    &__table {
+      font-size: 6px;
+      tr {
+        height: 18.6px;
+      }
+      td {
+        img {
+          width: 6px;
+          height: 6px;
+          &:not(:first-child) {
+            margin-left: 3px;
+          }
+        }
+      }
+    }
+  }
+  .enterprise-form {
+    padding-bottom: 400px !important;
+  }
+  .modal {
+    .contact-us-form {
+      margin-bottom: 0;
+      &__title {
+        margin-bottom: 10px;
+      }
+      .lnd-textarea__wrapper {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+@media (max-width: $breakpoint-xs) {}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="265" height="359" viewBox="0 0 265 359">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100.001%">
+            <stop offset="0%" stop-color="#928DB8"/>
+            <stop offset="100%" stop-color="#7A71A6"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="99.983%">
+            <stop offset="0%" stop-color="#928DB8"/>
+            <stop offset="100%" stop-color="#7A71A6"/>
+        </linearGradient>
+        <linearGradient id="c" x1="32.434%" x2="67.567%" y1="36.67%" y2="63.33%">
+            <stop offset="0%" stop-color="#928DB8"/>
+            <stop offset="100%" stop-color="#7A71A6"/>
+        </linearGradient>
+        <path id="d" d="M19.79 60.94l16.73-38.41-.22 34.75-16.51 3.66M47.52 7.02L33.8 10.07 9.06 64.29 9 73.38l27.24-6-.1 16.62 10.92-2.42.1-16.62 6.88-1.58.6-10.23-7.41 1.64L47.52 7"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#F5F4F6" d="M39.977 240.779h225v-235h-225z"/>
+        <text fill="#29292A" font-family="sans-serif" style="font-weight: 100" font-size="16">
+            <tspan x="70.766" y="38.604">Check if there are </tspan> <tspan x="70.766" y="60.604">any options to </tspan> <tspan x="70.766" y="82.604">upgrade and </tspan> <tspan x="70.766" y="104.604">increase the </tspan> <tspan x="70.766" y="126.604">property value. Track </tspan> <tspan x="70.766" y="148.604">the performance </tspan> <tspan x="70.766" y="170.604">with Investment </tspan> <tspan x="70.766" y="192.604">Manager. Get an </tspan> <tspan x="70.766" y="214.604">advice when to sell.</tspan>
+        </text>
+        <path fill="url(#a)" d="M1.977 278.376h1V5.283h-1z" transform="translate(37)"/>
+        <path fill="url(#b)" d="M2.389 5.515A2.39 2.39 0 1 1 2.39.736a2.39 2.39 0 0 1-.001 4.779z" transform="translate(37)"/>
+        <g>
+            <path fill="#EDF2FF" d="M55.441 313.422l-8.876-7.156-.158 9.064z"/>
+            <path fill="#E9E9E4" d="M48.572 357.188c-3.545-.846-6.944-2.212-10.122-3.996L7.48 331.48l30.273-12.392 26.01 18.683s24.441 14.887 4.67 19.94c-3.278.836-6.915 1.027-10.415.844a53.69 53.69 0 0 1-9.446-1.366z"/>
+            <path fill="#EDF2FF" d="M11.584 313.447l17.398-38.112-.826 34.74-16.572 3.372m28.667-53.428l-13.771 2.81L.797 316.61l-.218 9.088 27.34-5.524-.39 16.616 10.96-2.23.39-16.615 6.907-1.46.779-10.218-7.438 1.51L40.251 260"/>
+            <g transform="rotate(1 -14857.09 229.195)">
+                <use fill="url(#c)" xlink:href="#d"/>
+                <use fill="#A7BFFF" xlink:href="#d"/>
+            </g>
+            <path fill="#EDF2FF" d="M26.48 262.83l8.876 7.155L9.604 324.33l-8.862-7.96z"/>
+            <path fill="#EDF2FF" d="M.579 325.697l.163-9.328 8.862 7.96-.149 8.524zM26.48 262.83l8.877 7.107 13.77-2.762L40.251 260zM27.89 336.795l8.536 7.15.64-16.091-9.045 1.394z"/>
+        </g>
+    </g>
+</svg>

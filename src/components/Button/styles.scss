@@ -1,0 +1,47 @@
+@import "../../style/variables";
+
+.lnd-button {
+  letter-spacing: 0.28px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 38px;
+  font-size: 14px;
+  font-weight: 600;
+  box-sizing: border-box;
+  &--default {
+    background: $white;
+    border: 1px solid $blue2;
+    color: $black1;
+    padding: 0 30px;
+    transition: .2s;
+    &:hover {
+      background-color: $blue2;
+      color: $white
+    }
+  }
+  &--primary {
+    background: $blue2;
+    border: 1px solid $blue2;
+    color: $white;
+    font-size: 16px;
+    transition: .5s;
+    padding: 0 55px;
+    &:hover {
+      box-shadow: 0 6px 12px 0 rgba(38, 69, 154, 0.44);
+    }
+  }
+  &--lg {
+    line-height: 48px;
+    font-size: 16px;
+  }
+  &--sm {
+    line-height: 33px;
+    padding: 0 10px;
+    min-width: 150px;
+  }
+}

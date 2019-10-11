@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="247" height="200" viewBox="0 0 247 200">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#928DB8"/>
+            <stop offset="100%" stop-color="#7A71A6"/>
+        </linearGradient>
+        <path id="b" d="M32.404 7.17l.059-.408-11-6.079-.148.448-7.843 3.433C11.581 10.62 9.466 16.107.01 20.247v8.678l9.456 5.225v50.043l11.001 6.079 12.238-5.358V7.038l-.301.132"/>
+        <linearGradient id="c" x1="46.603%" x2="53.398%" y1="39.658%" y2="54.063%">
+            <stop offset="0%" stop-color="#928DB8"/>
+            <stop offset="100%" stop-color="#7A71A6"/>
+        </linearGradient>
+        <path id="d" d="M20.457 90.234V30.826L11 34.966v-8.678c9.457-4.14 11.571-9.627 13.463-15.684l7.948-3.479.283-.124.003-.001v77.876l-12.24 5.358"/>
+        <linearGradient id="e" x1="50.008%" x2="50.008%" y1="-.008%" y2="99.998%">
+            <stop offset="0%" stop-color="#928DB8"/>
+            <stop offset="100%" stop-color="#7A71A6"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#F5F4F6" d="M21.477 67.778h225v-63h-225z"/>
+        <path fill="url(#a)" d="M20.977 94.518h1V4.778h-1z"/>
+        <g transform="translate(.162 93.387)">
+            <use fill="#BAB6D0" xlink:href="#b"/>
+            <use fill="#EDF2FF" xlink:href="#b"/>
+        </g>
+        <g transform="translate(.162 93.387)">
+            <use fill="url(#c)" xlink:href="#d"/>
+            <use fill="#A7BFFF" xlink:href="#d"/>
+        </g>
+        <path fill="#E9E9E4" d="M52.944 199.739c-3.836 0-7.592-1.14-10.879-3.127l-21.436-12.953 12.238-5.358 23.4 14.573c2.967 1.848 1.934 6.447-1.544 6.783-.485.047-.982.072-1.482.08l-.297.002"/>
+        <path fill="url(#e)" d="M23.778 2.389a2.389 2.389 0 1 1-4.778 0 2.389 2.389 0 0 1 4.778 0"/>
+        <text fill="#29292A" font-family="sans-serif" style="font-weight: 100" font-size="16">
+            <tspan x="51.84" y="40.466">Input your data</tspan>
+        </text>
+    </g>
+</svg>

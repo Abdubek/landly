@@ -1,0 +1,45 @@
+@import "../../style/_variables";
+
+
+.lnd-header {
+  box-sizing: border-box;
+  padding: 40px 0;
+  font-family: $montserrat;
+  .menu {
+    &__item {
+      font-weight: normal;
+      margin-right: 40px;
+      cursor: pointer;
+      color: $black1;
+      & a:hover {
+        color: $gray1;
+      }
+    }
+  }
+  a {
+    text-decoration: unset;
+  }
+  &__logo {
+    img {
+      width: 151px;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-xs) {
+  .lnd-header {
+    box-sizing: border-box;
+    padding: 40px 0;
+    &__logo {
+      img {
+        width: 95px;
+      }
+    }
+    .lnd-button {
+      height: 25px;
+      line-height: 23px;
+      font-size: 10px;
+      padding: 0 10px;
+    }
+  }
+}

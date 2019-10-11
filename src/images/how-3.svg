@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="421" height="229" viewBox="0 0 421 229">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100.001%">
+            <stop offset="0%" stop-color="#928DB8"/>
+            <stop offset="100%" stop-color="#7A71A6"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="99.983%">
+            <stop offset="0%" stop-color="#928DB8"/>
+            <stop offset="100%" stop-color="#7A71A6"/>
+        </linearGradient>
+        <path id="c" d="M46.459 22.323V20.32c0-5.762-1.335-9.868-3.955-12.166a8.167 8.167 0 0 0-2.419-1.47l-6.703-4.07c-3.047-2.671-7.831-2.9-14.291-.424C7.075 6.794.845 16.3.845 28.76v4.229l9.122 5.54 3.005-1.152v10.88l9.122 5.539 2.986-1.144c.008.282.019.558.019.859v6.118c0 5.062-1.322 7.928-3.561 9.687V63.91l-9.123-5.54-11.57 4.434v6.452c0 7.634 2.343 12.362 6.918 13.824l6.777 4.375a8 8 0 0 0 .678.438l.124.08.012-.01c3.035 1.677 7.334 1.539 12.859-.578 12.016-4.603 18.246-14.11 18.246-26.57v-6.12c0-5.485-1.185-9.494-3.956-11.544l.001-.004-.028-.015a7.38 7.38 0 0 0-1.96-1.008l-1.998-1.027c5.453-4.645 7.941-10.736 7.941-18.775"/>
+        <linearGradient id="d" x1="40.361%" x2="59.639%" y1="36.67%" y2="63.33%">
+            <stop offset="0%" stop-color="#928DB8"/>
+            <stop offset="100%" stop-color="#7A71A6"/>
+        </linearGradient>
+        <path id="e" d="M34.253 25.45c0-7.007-2.447-7.961-6.341-6.47-3.894 1.492-6.342 4.545-6.342 10.107v5.006L10 38.527v-4.228c0-12.461 6.23-21.968 18.245-26.571 12.016-4.604 18.246.129 18.246 12.59v2.002c0 8.343-2.67 14.596-8.567 19.302 6.119.327 8.567 5.173 8.567 13.072v6.119c0 12.46-6.23 21.968-18.246 26.57C16.23 91.989 10 87.254 10 74.794v-6.451l11.57-4.432v7.23c0 5.562 2.448 6.738 6.342 5.246 3.894-1.491 6.341-4.32 6.341-11.22V59.05c0-7.232-2.447-8.964-8.01-6.833l-4.117 1.577V42.668l4.784-1.833c4.562-1.747 7.343-4.814 7.343-11.045v-4.34"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#F5F4F6" d="M26.629 111.043h394v-106h-394z"/>
+        <text fill="#29292A" font-family="sans-serif" style="font-weight: 100" font-size="18" transform="translate(26.129 5.043)">
+            <tspan x="31.289" y="34.825">Select the deal to proceed. Track the </tspan> <tspan x="31.289" y="57.825">performance with Investment </tspan> <tspan x="31.289" y="80.825">Manager. Get an advice when to sell.</tspan>
+        </text>
+        <path fill="url(#a)" d="M2.629 139h1V4.547h-1z" transform="translate(23)"/>
+        <path fill="url(#b)" d="M3.041 4.779A2.39 2.39 0 1 1 3.042 0a2.39 2.39 0 0 1-.001 4.779z" transform="translate(23)"/>
+        <g>
+            <path fill="#E9E9E4" d="M59.018 228.89a53.69 53.69 0 0 1-9.505-.87c-3.584-.659-7.05-1.845-10.317-3.46l-25.36-12.531 29.582-13.96 19.506 10.319s25.93 13.033 6.45 19.114c-3.229 1.007-6.851 1.388-10.356 1.388"/>
+            <g transform="translate(0 125.27)">
+                <use fill="#BAB6D0" xlink:href="#c"/>
+                <use fill="#EDF2FF" xlink:href="#c"/>
+            </g>
+            <g transform="translate(0 125.27)">
+                <use fill="url(#d)" xlink:href="#e"/>
+                <use fill="#A7BFFF" xlink:href="#e"/>
+            </g>
+        </g>
+    </g>
+</svg>

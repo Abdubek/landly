@@ -1,0 +1,327 @@
+@import "../../style/variables";
+
+.about-us {
+  padding: 50px 0 150px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-family: $montserrat;
+  &__wrapper {
+    position: relative;
+  }
+  &__left {
+    width: 50%;
+  }
+  &__img {
+    width: 45%;
+  }
+  &__left {
+    padding-right: 30px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.78px;
+    margin-bottom: 30px;
+  }
+  &__us {
+    font-weight: 600;
+    line-height: 1.63;
+    font-size: 16px;
+    color: $black1;
+    letter-spacing: normal;
+    margin-bottom: 40px;
+  }
+  &__title-2 {
+    font-weight: 600;
+    line-height: 2.09;
+    letter-spacing: 0.4px;
+    font-size: 22px;
+    color: $black1;
+    margin-bottom: 5px;
+  }
+  &__desc {
+    font-size: 16px;
+    color: $black1;
+    line-height: 1.56;
+  }
+  &__back-dots-1 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  &__back-dots-2 {
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+  }
+}
+
+.team {
+  padding: 20px 0;
+  background-image: url("../../images/back-top.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  font-family: $montserrat;
+  &:after {
+    content: "";
+    right: 0;
+    height: 38%;
+    bottom: 0;
+    z-index: -1;
+    left: 0;
+    position: absolute;
+    background-color: $blue0;
+  }
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: 32px;
+    color: $black1;
+  }
+  &__text {
+    color: $black1;
+    line-height: 1.56;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 70px;
+  }
+  .lnd-button {
+    margin: 0 auto;
+  }
+  .card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    .card {
+      background: #fff;
+      width: calc(33.32% - 20px);
+      box-shadow: 0 22px 45px 0 rgba(26, 47, 112, 0.13);
+      border-radius: 8px;
+      padding: 50px 25px;
+      display: flex;
+      flex-direction: column;
+      &__title {
+        font-size: 22px;
+        font-weight: 600;
+        margin: 25px 0 10px;
+        text-align: center;
+      }
+      &__desc {
+        margin: 0;
+        color: #7d7d7d;
+        line-height: 1.5;
+        font-size: 16px;
+      }
+    }
+    .mobile-empty-block {
+      display: none;
+    }
+  }
+}
+
+.strengths {
+  padding: 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-family: $montserrat;
+  &__right {
+    width: 50%;
+    padding: 0 15px;
+  }
+  &__img {
+    width: 50%;
+  }
+  &__title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.31;
+    letter-spacing: 0.3px;
+    color: $black1;
+  }
+  &__desc {
+    font-size: 18px;
+    line-height: 1.56;
+    color: $black1;
+  }
+  &__back-dots-1 {
+    position: absolute;
+    right: 30px;
+    bottom: 20%;
+  }
+  &__back-dots-2 {
+    position: absolute;
+    left: 30px;
+    bottom:  20%;
+  }
+}
+
+.about-form {
+  background-image: url("../../images/back-bottom.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  font-family: $montserrat;
+  &:after {
+    content: "";
+    right: 0;
+    height: 38%;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    position: absolute;
+    background-color: $blue0;
+  }
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: $black1;
+  }
+}
+
+
+@media (min-width: $breakpoint-xxl) {
+}
+@media (max-width: $breakpoint-xxl){
+
+}
+@media (max-width: $breakpoint-xl) {
+}
+@media (max-width: $breakpoint-lg) {
+  .team {
+    background-position: 0 70%;
+  }
+  .about-form {
+    background-position: 0 20%;
+  }
+}
+@media (max-width: $breakpoint-md) {
+  .about-us {
+    padding: 50px 0;
+  }
+  .team {
+    background-position: center;
+    height: 830px;
+    .card-wrapper {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      padding: 50px;
+      .card {
+        width: 300px;
+        flex: none;
+        margin-right: 60px;
+      }
+      .mobile-empty-block {
+        width: 1px;
+        flex: none;
+        display: block;
+      }
+    }
+    .lnd-button {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+  }
+  .about-form {
+    .contact-us-form {
+      padding: 60px;
+    }
+  }
+}
+@media (max-width: $breakpoint-sm) {
+  .dots {
+    display: none;
+  }
+  .about-us {
+    flex-direction: column;
+    padding-top: 0;
+    &__left {
+      width: 100%;
+      padding-right: 0;
+    }
+    &__img {
+      width: 100%;
+    }
+  }
+  .team {
+    height: 900px;
+    background-position: 0 60%;
+  }
+  .strengths {
+    flex-direction: column;
+    &__img, &__right {
+      width: 100%;
+    }
+  }
+  .about-form {
+    background-position: 0 40%;
+    .contact-us-form {
+      width: 100%;
+      min-width: unset;
+      .lnd-input__wrapper {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+  }
+}
+@media (max-width: $breakpoint-xs) {
+  .about-us {
+    &__title {
+      font-size: 32px;
+    }
+    &__title-2 {
+      line-height: 1.27;
+    }
+    &__us {
+      font-size: 14px;
+    }
+  }
+  .team {
+    height: 800px;
+    &__title {
+      font-size: 22px;
+      text-align: start;
+    }
+    &__text {
+      text-align: start;
+      margin-bottom: 0;
+    }
+    .lnd-button {
+      padding: 0;
+      margin-right: 15px;
+      width: calc(100% - 60px);
+    }
+  }
+  .strengths {
+    &__title {
+      font-size: 22px;
+    }
+    &__desc {
+      font-size: 14px;
+    }
+  }
+  .about-form {
+    &__title {
+      font-size: 22px;
+    }
+    .contact-us-form {
+      padding: 30px 15px;
+    }
+  }
+}

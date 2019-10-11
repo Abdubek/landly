@@ -1,0 +1,89 @@
+@import "../../style/variables";
+
+.form-header {
+  display: flex;
+  justify-content: center;
+  padding: 43px 0;
+}
+
+.estimate-form {
+  height: calc(100vh - 250px);
+  min-height: 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .lnd-h1__hint {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .form {
+    background: $white;
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    min-width: 770px;
+    margin: 0 auto;
+    &__decor {
+      width: 100%;
+      margin-bottom: 30px;
+      &-line {
+        margin: 0 auto;
+        width: 50%;
+        height: 2px;
+        background-color: rgb(192, 208, 250);
+      }
+    }
+    &__privacy {
+      font-size: 14px;
+      font-weight: normal;
+      width: 100%;
+      text-align: center;
+      color: $gray1;
+      cursor: pointer;
+      transition: .5s;
+      font-family: $brown;
+      &:hover {
+        color: $black1;
+      }
+    }
+    .lnd-button {
+      margin: 40px auto 10px;
+      padding: 0 80px;
+    }
+    .lnd-input__wrapper {
+      width: calc(50% - 15px);
+      margin-bottom: 30px;
+    }
+    .margin-left {
+      margin-left: 30px;
+    }
+  }
+}
+@media (max-width: $breakpoint-md) {
+  .estimate-form {
+    .form {
+      width: 100%;
+      min-width: unset;
+      padding: 0;
+    }
+  }
+}
+@media (max-width: $breakpoint-sm) {
+  .estimate-form {
+    min-height: 900px;
+    .lnd-h1 {
+      font-size: 26px;
+    }
+    .form {
+      .margin-left {
+        margin-left: 0;
+      }
+      .lnd-button {
+        width: 100%;
+        padding: 0 20px;
+      }
+    }
+  }
+}
