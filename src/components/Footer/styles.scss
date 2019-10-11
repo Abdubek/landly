@@ -5,6 +5,9 @@
   justify-content: space-between;
   height: 120px;
   align-items: center;
+  &__logo-link {
+    text-align: center;
+  }
   &__wrapper {
     border-top: 1px solid rgba(41, 41, 42, 0.2);
   }

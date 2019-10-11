@@ -32,12 +32,14 @@ const Input = (props) => {
         <div className={wrapper}>
             {type === 'input' ? (
                 <input {...otherProps}
+                       type="text"
                        className={inputClasses}
                        placeholder=""
                        required />
             ) : (
                 <textarea className={textareaClasses}
                           {...otherProps}
+                          type="text"
                           rows={rows}
                           placeholder=""
                           required />

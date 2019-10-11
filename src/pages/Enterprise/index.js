@@ -255,7 +255,7 @@ const Enterprise = () => {
 
             <section className="enterprise-form lnd-section__padding">
                 <div className="lnd-container">
-                    <h2 className="contact-us-form__title">Any question?</h2>
+                    <h2 className="enterprise-form__title">Any question?</h2>
 
                     <ContactUs />
 
