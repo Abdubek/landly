@@ -30,6 +30,11 @@
   .lnd-header {
     box-sizing: border-box;
     padding: 40px 0;
+    .menu {
+      &__item {
+        margin-right: 10px;
+      }
+    }
     &__logo {
       img {
         width: 95px;
