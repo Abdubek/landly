@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from "../../images/logo.png";
 import {Link} from "react-router-dom";
 import useStoreon from 'storeon/react'
@@ -6,11 +6,14 @@ import './styles.scss';
 import Input from "../../components/Input";
 import Button from "../../components/Button";
 import Footer from "../../components/Footer";
+import Notification from "../../components/Notification";
 import api from '../../api';
 
 const Form = () => {
 
     const { dispatch, users } = useStoreon('users');
+    const [ notify, setNotify ] = useState(false);
+    const [ success, setSuccess ] = useState(false);
 
     useEffect(() => {
         dispatch('users/save', { state: 'California', type: "estimate-form" })
@@ -25,6 +28,7 @@ const Form = () => {
             api.newlead(users).then(res => res.json()),
             api.contactUs(users).then(res => res.json())
         ]);
+        setSuccess(true);
         console.log(res)
     };
 
@@ -81,6 +85,12 @@ const Form = () => {
             </div>
 
             <Footer />
+
+            <Notification
+                open={notify}
+                onClose={() => setNotify(false)}
+                success={success}
+            />
         </>
     )
 };

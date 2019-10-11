@@ -1,0 +1,40 @@
+@import "../../style/variables";
+
+.notify {
+  width: 430px;
+  padding: 40px 65px;
+  text-align: center;
+  font-family: $brown;
+  &__img {
+    margin-bottom: 10px;
+  }
+  &__title {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.29;
+    letter-spacing: 0.4px;
+    color: $black1;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.44;
+    color: $black1;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  &__divider {
+    width: 100%;
+    border-bottom: 1px solid $gray1;
+    margin: 20px auto;
+  }
+  &__hint {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.44;
+    color: $gray2;
+    margin-bottom: 0;
+  }
+}
